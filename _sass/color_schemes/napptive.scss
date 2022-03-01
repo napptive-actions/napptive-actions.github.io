@@ -128,7 +128,7 @@ body {
 // Title
 .site-header {
     background-color: $ultra-deep-grey !important;
-    background-image: url(../../images/logo/playground-doc.png);
+    background-image: url(../../images/logo/header-doc.png);
     background-repeat: no-repeat !important;
     height: calc(100% - 20px) !important;
     border-bottom: none !important;
@@ -136,7 +136,8 @@ body {
 }
 .site-header:hover {
     background-color: $ultra-deep-grey !important;
-    background-image: url(../../images/logo/playground-doc.png);
+    // background-image: url(../../images/logo/playground-doc.png);
+    background-image: url(../../images/logo/header-doc.png.png);
     background-repeat: no-repeat !important;
 }
 
