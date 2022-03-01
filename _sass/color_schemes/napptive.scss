@@ -1,0 +1,155 @@
+// Fonts definition
+
+@font-face {
+	font-family: 'Spinnaker';
+	src: url( '../../fonts/Spinnaker-Regular.ttf' );
+	font-style: normal;
+}
+
+// Color definition
+
+$ultra-deep-grey: #181818;
+$card-background-grey: #424242;
+$deep-grey: #4B4B4B;
+$main-grey: #676767;
+$light-grey: #BFBFBF;
+$ultra-light-grey: #E6E6E6;
+
+$accent-aquamarine: #1FD7E0;
+$accent-purple: #A47AFF;
+$status-green: #00FF88;
+$status-yellow:#EBEB00;
+$status-red:#FF0061;
+
+$gradient-color-deep-blue: #4A00EB;
+$gradient-color-purple: #8324DB;
+
+@mixin gradient-vertical { 
+  background: -webkit-linear-gradient(to top, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: -moz-linear-gradient(to top, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: -o-linear-gradient(to top, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: linear-gradient(to top, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;  
+}
+
+@mixin gradient-horizontal { 
+  background: -webkit-linear-gradient(to right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: -moz-linear-gradient(to right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: -o-linear-gradient(to right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: linear-gradient(to right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;  
+}
+
+@mixin gradient-diagonal { 
+  background: -webkit-linear-gradient(to top right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: -moz-linear-gradient(to top right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: -o-linear-gradient(to top right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;
+  background: linear-gradient(to top right, $gradient-color-deep-blue 30%, $gradient-color-purple) !important;  
+}
+
+
+$body-background-color: $card-background-grey;
+$sidebar-color: $ultra-deep-grey;
+$search-background-color: $ultra-light-grey;
+$table-background-color: $deep-grey;
+$code-background-color: $ultra-deep-grey;
+$feedback-color: darken($sidebar-color, 3%) !default;
+
+$body-text-color: white;
+$body-heading-color: white;
+$search-result-preview-color: white;
+$nav-child-link-color: darken($accent-aquamarine, 5%);
+$link-color: $accent-aquamarine;
+$btn-primary-color: $accent-purple;
+$base-button-color: $accent-purple;
+
+$border: 1px solid !default;
+$border-radius: 4px !default;
+$border-color: $main-grey !default;
+
+
+// Force override private classes
+
+a {
+	color: $accent-aquamarine;
+	text-decoration: none;
+	&:hover {
+		color: white;
+		text-decoration: none;
+		cursor: pointer;
+	}
+}
+
+body {
+    font-family: 'Spinnaker', sans-serif !important;
+}
+
+// Code keys
+.na {
+    color: white !important;
+}
+
+// Code values
+.s {
+    color: $accent-aquamarine !important;
+}
+.m {
+    color: $accent-aquamarine !important;
+}
+
+// Plain code
+.highlighter-rouge {
+    color: $accent-aquamarine !important;
+}
+
+// Search results
+#search-results {
+    background: $ultra-deep-grey !important;
+}
+
+.search-result:hover {
+    background-color: $main-grey !important;
+}
+
+// Navbar
+.side-bar{
+    border-right: none !important;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover{
+    background-image: none !important;
+    @include gradient-horizontal;
+}
+
+.active {
+    background-image: none !important;
+    background-color: $card-background-grey !important;
+    color: white !important;
+}
+
+// Title
+.site-header {
+    background-color: $ultra-deep-grey !important;
+    background-image: url(../../images/logo/playground-doc.png);
+    background-repeat: no-repeat !important;
+    height: calc(100% - 20px) !important;
+    border-bottom: none !important;
+
+}
+.site-header:hover {
+    background-color: $ultra-deep-grey !important;
+    background-image: url(../../images/logo/playground-doc.png);
+    background-repeat: no-repeat !important;
+}
+
+.site-title {
+    display: none !important;
+}
+
+// Footer
+.site-footer {
+    display: none !important;
+}
+
+// Main header
+.main-header {
+    border-bottom-color: $accent-aquamarine !important;
+}
