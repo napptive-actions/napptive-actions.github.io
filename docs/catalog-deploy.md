@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catalog Deploy
-nav_order: 1
+nav_order: 2
 parent: Actions
 ---
 
@@ -11,7 +11,7 @@ This action allows you to deploy an application from the Napptive Catalog.
 
 ## Napptive Catalog
 
-The Napptive catalog is a collection of applications ready to be deployed. all users of the [Napptive platform](https://playground.napptive.dev) have at their disposal the applications contained in the catalog.
+The Napptive catalog is a collection of applications ready to be deployed. All users of the [Napptive platform](https://playground.napptive.dev) have at their disposal the applications contained in the catalog.
 
 To list all available applications, execute:
 

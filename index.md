@@ -27,14 +27,7 @@ All these tasks and many more will be very easy with the napptive github actions
 
 ### Personal Access Token
 
-- Once you have an account, you will need to create a [PAT](https://docs.napptive.com/guides/Using_personal_access_tokens.html). The actions will need this PAT  to login to the plaform.
-
-```bash
-$ playground login
-Logged into account [account] - environment [environment]
-```
-
-create a PAT:
+- The actions required a Personal Access Token(PAT) to log into the platform. Follow the [documentation]((https://docs.napptive.com/guides/Using_personal_access_tokens.html) ) to create one. With the CLI, execute:
 
 ```bash
 playground user pat create github-actions

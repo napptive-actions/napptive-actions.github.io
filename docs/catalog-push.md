@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Catalog Push
-nav_order: 2
+nav_order: 3
 parent: Actions
 ---
 
@@ -11,7 +11,7 @@ This action allows you to add an application to the Napptive Catalog.
 
 ## Napptive Catalog
 
-The Napptive catalog is a collection of applications ready to be deployed. all users of the [Napptive platform](https://playground.napptive.dev) have at their disposal the applications contained in the catalog.
+The Napptive catalog is a collection of applications ready to be deployed. All users of the [Napptive platform](https://playground.napptive.dev) have at their disposal the applications contained in the catalog.
 
 The applications within the catalog are organized in different namespaces. You can upload apps to your account namespace. The application will be named following the following notation namespace/appName:tag.
 
