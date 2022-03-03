@@ -1,0 +1,13 @@
+title: 
+remote_theme: pmarsceill/just-the-docs
+color_scheme: napptive
+
+# From https://github.com/pmarsceill/just-the-docs/blob/master/_config.yml
+
+# Aux links for the upper right navigation
+aux_links:
+  "Go to Playground":
+    - "//playground.napptive.dev/"
+
+# Google Analytics Tracking (optional)
+ga_tracking: G-L5GRY135E0
