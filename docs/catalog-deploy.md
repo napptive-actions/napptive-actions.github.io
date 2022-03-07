@@ -11,7 +11,7 @@ This action allows you to deploy an application from the Napptive Catalog.
 
 ## Napptive Catalog
 
-The Napptive catalog is a collection of applications ready to be deployed. All users of the [Napptive platform](https://playground.napptive.dev) have at their disposal the applications contained in the catalog.
+The Catalog is a collection of applications ready to be deployed. All users of the [Napptive Playground](https://playground.napptive.dev) have the applications contained in the catalog at their disposal.
 
 To list all available applications, execute:
 
