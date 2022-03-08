@@ -7,11 +7,11 @@ parent: Actions
 
 # Playground Github Action
 
-This action allows you to execute the playground command you need.  
+This action allows you to execute the Playground command you need.
 
 ## Playground
 
-Napptive playground simplifies the process to depoy and maintenance cloud-native applications. [Try for free!!](https://playground.napptive.dev)
+The Playground simplifies the process to deploy and maintain cloud-native applications. [It’s free!!](https://playground.napptive.dev)
 
 ---
 
