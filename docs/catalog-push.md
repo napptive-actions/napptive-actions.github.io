@@ -80,7 +80,7 @@ jobs:
             # Get a copy of the repo.
       - uses: actions/checkout@v2        
       - name: Push the application on the catalog
-        uses: napptive-actions/catalog-push-action@v2.2.1
+        uses: napptive-actions/catalog-push-action@v2.4.1
         with:
           applicationPath: ./build/k8s/
           namespace: "namespace"
