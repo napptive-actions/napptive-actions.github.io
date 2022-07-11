@@ -61,7 +61,7 @@ This file allows you to change the target playground installation. This input is
 ## Example
 
 ```bash
-{ % raw % }name: Push an application to Napptive Playground
+{% raw %}name: Push an application to Napptive Playground
 on: [push]
 jobs:
   deploy:
@@ -86,5 +86,5 @@ jobs:
           namespace: "namespace"
           applicationName: "appName"
           tag: "v1.1.0"
-{ % endraw % }
+{% endraw %}
 ```
