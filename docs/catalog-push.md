@@ -61,7 +61,7 @@ This file allows you to change the target playground installation. This input is
 ## Example
 
 ```bash
-name: Push an application to Napptive Playground
+{ % raw % }name: Push an application to Napptive Playground
 on: [push]
 jobs:
   deploy:
@@ -80,10 +80,11 @@ jobs:
             # Get a copy of the repo.
       - uses: actions/checkout@v2        
       - name: Push the application on the catalog
-        uses: napptive-actions/catalog-push-action@v2.4.1
+        uses: napptive-actions/catalog-push-action@v3.0.1
         with:
           applicationPath: ./build/k8s/
           namespace: "namespace"
           applicationName: "appName"
           tag: "v1.1.0"
+{ % endraw % }
 ```
