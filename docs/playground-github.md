@@ -40,7 +40,7 @@ This file allows you to change the target playground installation. Visit [docume
 ## Example
 
 ```bash
-name: List deployed applications
+{ % raw % }name: List deployed applications
 on: [push]
 jobs:
   deploy:
@@ -50,11 +50,12 @@ jobs:
       # Get a copy of the repo.
       - uses: actions/checkout@v2
       # Execute `playground apps `.
-      - uses: napptive-actions/playground-github-action@v2.4.1
+      - uses: napptive-actions/playground-github-action@v3.0.1
         env:
           PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
           cmd: "apps"
+{ % endraw % }
 ```
 
 ## References
