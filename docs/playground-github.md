@@ -40,7 +40,7 @@ This file allows you to change the target playground installation. Visit [docume
 ## Example
 
 ```bash
-{ % raw % }name: List deployed applications
+{% raw %}name: List deployed applications
 on: [push]
 jobs:
   deploy:
@@ -55,7 +55,7 @@ jobs:
           PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
           cmd: "apps"
-{ % endraw % }
+{% endraw %}
 ```
 
 ## References

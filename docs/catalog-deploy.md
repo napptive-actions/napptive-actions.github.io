@@ -50,7 +50,7 @@ This file allows you to change the target playground installation. Visit [docume
 ## Example
 
 ```bash
-{ % raw % }name: Deploy to Napptive Playground from Catalog
+{% raw %}name: Deploy to Napptive Playground from Catalog
 on: [push]
 jobs:
   deploy:
@@ -63,5 +63,5 @@ jobs:
           PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
           appName: "napptive/drawio:14.3.0"
-{ % endraw % }
+{% endraw %}
 ```
