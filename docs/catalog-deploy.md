@@ -58,7 +58,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # Deploying napptive/drawio:14.3.0 from the catalog
-      - uses: napptive-actions/catalog-deploy-action@v6.0.1
+      - uses: napptive-actions/catalog-deploy-action@v6.0.2
         env:
           PLAYGROUND_PAT: ${{ secrets.PLAYGROUND_PAT }}
         with:
